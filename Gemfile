@@ -99,7 +99,7 @@ group :development do
   # gem 'pronto-scss', require: false
   # if you need to run webrick server for development
   # rails server -u webrick
-  gem "webrick"
+  gem "webrick", ">= 1.8.2"
   gem 'foreman'
 end
 
